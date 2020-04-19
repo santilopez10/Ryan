@@ -1,0 +1,117 @@
+html {
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#wrap {
+    background-color: rgb(180, 217, 180);
+    height: 2000px;
+    width: 100%;
+    display: flex;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+/*---------------------------------------------------------------- Question Area -------------------------------------------------------------------------*/
+
+#qArea {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.qBox {
+    width: 100%;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 12px 0 0 0;
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.qBoxLogo {
+    width: 100%;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 12px 0 0 0;
+    background-color: #fff;
+    padding: 5px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#logo {
+    width: 600px;
+}
+
+#title {
+    font-size: 32px;
+    color: #202124;
+    font-weight: 400;
+}
+
+#subtitle {
+    font-size: 14px;
+    color: #202124;
+    letter-spacing: .2px;
+    margin: 12px 0 0 0;
+}
+
+#required {
+    color: #d93025;
+    font-size: 14px;
+    letter-spacing: .2px;
+    margin: 12px 0 0 0;
+}
+
+.qTitle {
+    font-size: 16px;
+    color: #202124;
+}
+
+.input {
+    border-bottom: 1px solid #dadce0;
+    width: 50%;
+    margin: 22px 0 0 0;
+    height: 24px;
+    font-size: 14px;
+    box-sizing: border-box;
+    letter-spacing: .2px;
+    align-content: flex-end;
+}
+
+#submit {
+    background-color: rgb(5, 128, 5);
+    display: flex;
+    margin: 12px 0 0 0;
+    color: #fff;
+    padding: 0 24px;
+    height: 36px;
+    font-size: 14px;
+    width: 96px;
+    box-sizing: border-box;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .25px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color: rgb(5, 128, 5, 0.8);
+}
